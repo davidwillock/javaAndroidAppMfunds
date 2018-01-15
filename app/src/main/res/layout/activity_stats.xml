@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    android:stretchColumns="1,2"
+    android:shrinkColumns="1,2"
+    >
+
+
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtStatsSymbolvalue"
+                android:padding="10dip"
+                android:text=""
+                android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtStatNavps"
+            android:text="@string/navps"
+            android:padding="10dip" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtStatNavpsvalue"
+                    android:gravity="right"
+                    android:padding="15dip"
+                    android:text="" />
+            </TableRow>
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtStatsFullNamevalue"
+            android:gravity="right"
+            android:padding="3dp"
+            android:text=""
+            android:textSize="14sp" />
+
+
+    </TableRow>
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#BDBDBD" />
+
+
+
+
+
+
+
+    <TableRow>
+    <TextView
+        android:id="@+id/txtStatIncept"
+        android:text="@string/inceptiondate"
+        android:padding="3dip" />
+    <TextView
+        android:id="@+id/txtStatinceptvalue"
+        android:gravity="right"
+        android:padding="3dip" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtStatManger"
+            android:text="@string/manager"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtStatManagervalue"
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtStatFees"
+            android:text="@string/fundfees"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtStatFeesvalue"
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtStatMer"
+            android:padding="3dip"
+            android:text="@string/mer" />
+
+        <TextView
+            android:id="@+id/txtStatMervalue"
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#BDBDBD" />
+
+
+
+
+
+
+
+
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtStatYtd"
+            android:text="@string/ytdreturn"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtStatYtdvalue"
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#BDBDBD" />
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtStatAsset"
+            android:text="@string/assets"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtStatAssetvalue"
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#BDBDBD" />
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtStatRank"
+            android:text="@string/rank"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtStatRankvalue"
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#BDBDBD" />
+
+
+
+    <TableRow>
+    <TextView
+        android:id="@+id/txtStatStd"
+        android:text="@string/stddev"
+        android:padding="3dip" />
+    <TextView
+        android:id="@+id/txtStatStdvalue"
+        android:text=""
+        android:gravity="right"
+        android:padding="3dip" />
+</TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#BDBDBD" />
+
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtStatVolatilityRank"
+            android:text="@string/volatilerank"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtStatVolatilityRankvalue"
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#BDBDBD" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtStatMstarRating"
+            android:text="@string/morningstarrate"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtStatMstarRatingvalue"
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#BDBDBD" />
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtStatMstarRisk"
+            android:text="@string/morningstarrisk"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtStatMstarRiskvalue"
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#BDBDBD" />
+
+
+
+
+
+
+
+</TableLayout>

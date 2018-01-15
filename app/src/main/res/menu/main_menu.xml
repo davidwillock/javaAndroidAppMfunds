@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    "@+id/id_login"
+    <item
+
+        android:title="Login"
+        android:id="@+id/id_login"
+
+        android:orderInCategory="100"
+        />
+
+    <item
+
+        android:title="Registration"
+        android:id="@+id/id_registration"
+        android:orderInCategory="101"
+        />
+
+    <item
+
+        android:title="Questionaire"
+        android:id="@+id/id_screen"
+        android:orderInCategory="102"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>

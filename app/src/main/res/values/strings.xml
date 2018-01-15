@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Mfunds</string>
+    <string name="title_activity_fund">FundActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <string name="FundsSummary">
+
+    "A fundamental idea in finance is the relationship between risk and return. The greater the    "
+    "amount of risk an investor is willing to take, the greater the potential return. Investors    "
+    "need to be compensated for taking on additional risk. For example, a U.S. Treasury bond is    "
+    "bond, provides a lower rate of return. A corporation is much more likely to go bankrupt than  "
+    "the U.S. government. Because the risk of investing in a corporate bond is higher, investors   "
+    "are offered a higher rate of return.\n\n Low Risk\n                                                        "
+
+    "                                                                                              "
+
+    "A portfolio contain holdings of solely bonds, cash, cash equivelants and money market can be  "
+    "considered as low risk as generally the economy has little impact on the return of the bond.  "
+    "The disadvantage of a portfolio of bonds is that the return can be consideraly less but its a "
+    "safe option. Generally in the last phases of a pension plan as it matures it will solely      "
+    "contain funds with low risk and the inception of a pension plan will contain high risk funds. "
+    "The risk will generally decrease throughout each phase of the pension plan.\n\n Medium Risk\n "
+
+    "Fund managers tend to mix bonds with equity to lower risk of the portfolio, generally called a"
+    "balanced fund. The bonds within the portfolio can be considered as safety net when there is a "
+    "down turn in the economy. A portfolio with a balance of equity and bonds can limit the damage "
+    "to an investors return.\n\n  High Risk\n                                                      "
+
+    "Funds containing holdings purely of equity stock are considered high risk however they can    "
+    "have the highest of returns but they are very exposed to economic downturn. Fund managers have"
+    "a variety of styles on how to manage portfolios. Basically they actively managed the fund by  "
+    "adding or removing stocks. Some fund managers tend to track an index to keep the fund inline  "
+    "with the economy while others will try to outperform the enconomy and increase an investors   "
+    "return. This can be viewed as aggressive management however additional costs will be incured  "
+    "incured on the investor.\n\n Note\n                                                           "
+    "                                                                                              "
+    "                                                                                              "
+    "There are many different types of portofolios with various options (blends e.g.), styles of   "
+    "investment and risk algorithms. The above explains a very basic perspective of mutual funds   "
+    "while there many complex strategies/views.\n\n Compare Funds Investment Growth\n              "
+    "                                                                                              "
+    "Investors require some sort of barometer to gauge the performance of their funds with their   "
+    "investment or investments over time. A typical technique is to use the growth of 10,000. This "
+    "is demonstrated by a graph that shows an initial investment of 10000. The chart is used to    "
+    "typically compare the returns from various investments against each other or another benchmark"
+    "e.g. SP 500 over a period of time. The disadvantage about this chart is that it excludes     "
+    "fund management fees and other charges such as sales and redemption expenses, the growth shown"
+    "is overstated, and the actual returns that would accrue to an investor would be lower than    "
+    "those shown.\n\n
+    "The next page provides you with 2 questions, the level of risk that you are comfortable with  "
+    "and how much you want to invest. Based on your criteria a list of funds will be recommended.  "
+    "By selecting a fund from the list you will be presented with information containing details on"
+    "the fund of interest.                                                                         "
+
+
+
+
+
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_funds">FundsActivity</string>
+    <string name="inceptiondate">Inception Date</string>
+    <string name="ytdreturn">YTD Return</string>
+    <string name="navps">Nav PS</string>
+    <string name="change">Change</string>
+    <string name="mer">MER</string>
+    <string name="assets">Assets($mil)</string>
+    <string name="rank">Rank(1Yr)</string>
+    <string name="stddev">StdDev(3Yr)</string>
+    <string name="volatilerank">VolatilityRanking(3Yr)</string>
+    <string name="rrsp">RRSP Eligibility</string>
+    <string name="load">Load </string>
+    <string name="maxfrontend">Max Front End</string>
+    <string name="maxbackend">Max Back End</string>
+    <string name="saleopen">Sale Open</string>
+    <string name="morningstarrisk">Morning Star Risk</string>
+    <string name="morningstarrate">Morning Star Rating</string>
+    <string name="netasset">Net Asset Value</string>
+    <string name="fullname">Full Name</string>
+    <string name="fundfees">Fees</string>
+    <string name="manager">Manager</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Mutual Funds</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>
